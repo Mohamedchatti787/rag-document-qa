@@ -92,15 +92,3 @@ streamlit run app/app.py
 
 
 
-## Suggested next steps once the base version works
-
-- Swap the embedding model for a domain-specific one and compare
-  retrieval quality (`all-MiniLM-L6-v2` vs. `multi-qa-mpnet-base-dot-v1`)
-- Add a "no answer found" path — if retrieved chunks don't actually
-  support any answer, the system should say so instead of forcing a
-  response. This is the most-cited real-world RAG failure mode, and
-  handling it explicitly is a strong signal.
-- Try re-ranking: retrieve top-20 with the fast embedding model, then
-  re-rank to top-5 with a cross-encoder before generation
-- Deploy the Streamlit app to Streamlit Community Cloud, link the live
-  demo here
