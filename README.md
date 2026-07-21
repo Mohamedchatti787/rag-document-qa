@@ -90,13 +90,7 @@ python src/eval.py
 streamlit run app/app.py
 ```
 
-## Eval results (fill in after running)
 
-| Metric | Score |
-|---|---|
-| Retrieval hit rate (correct chunk in top-5) | – |
-| Answer groundedness (manual/LLM-judged) | – |
-| Avg. chunks retrieved per query | – |
 
 ## Suggested next steps once the base version works
 
