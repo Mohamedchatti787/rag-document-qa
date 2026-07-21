@@ -1,0 +1,14 @@
+[
+  {
+    "question": "REPLACE ME: a question whose answer is in one specific ingested paper's abstract",
+    "expected_paper_id": "REPLACE_WITH_REAL_ARXIV_ID"
+  },
+  {
+    "question": "REPLACE ME: another question, different paper",
+    "expected_paper_id": "REPLACE_WITH_REAL_ARXIV_ID"
+  },
+  {
+    "question": "REPLACE ME: another question, different paper",
+    "expected_paper_id": "REPLACE_WITH_REAL_ARXIV_ID"
+  }
+]
